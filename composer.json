@@ -13,7 +13,7 @@
     }
   ],
   "require": {
-    "php": "^8.0",
+    "php": "^8.1",
     "ext-json": "*",
     "laravel/framework": "^8.37|^9.0|^10.0",
     "symfony/var-dumper": "^5.0|^6.0"
@@ -34,16 +34,16 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "arimoralesjordan\\LaravelAppCast\\Tests\\": "tests/"
+      "AriMoralesJordan\\LaravelAppCast\\Tests\\": "tests/"
     }
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "4.x-dev"
+      "dev-master": "0.x-dev"
     },
     "laravel": {
       "providers": [
-        "arimoralesjordan\\LaravelAppCast\\LaravelAppCastServiceProvider"
+        "AriMoralesJordan\\LaravelAppCast\\LaravelAppCastServiceProvider"
       ]
     }
   },
