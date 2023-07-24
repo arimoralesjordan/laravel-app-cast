@@ -1,0 +1,55 @@
+{
+  "name": "arimorales/laravel-app-cast",
+  "description": "App to share Screen with your laravel app",
+  "keywords": [
+    "laravel",
+    "screen sharing"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ari Morales",
+      "email": "arimoralesjordan@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "ext-json": "*",
+    "laravel/framework": "^8.37|^9.0|^10.0",
+    "symfony/var-dumper": "^5.0|^6.0"
+  },
+  "require-dev": {
+    "ext-gd": "*",
+    "guzzlehttp/guzzle": "^6.0|^7.0",
+    "laravel/octane": "^1.4",
+    "orchestra/testbench": "^6.0|^7.0|^8.0",
+    "phpstan/phpstan": "^1.10",
+    "phpunit/phpunit": "^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "AriMoralesJordan\\LaravelAppCast\\": "src/",
+      "AriMoralesJordan\\LaravelAppCast\\Database\\Factories\\": "database/factories/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "arimoralesjordan\\LaravelAppCast\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "4.x-dev"
+    },
+    "laravel": {
+      "providers": [
+        "arimoralesjordan\\LaravelAppCast\\LaravelAppCastServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
